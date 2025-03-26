@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Gedimino pilis",
+    "address": "Vilnius, Lietuva",
+    "latitude": 54.6872,
+    "longitude": 25.2797,
+    "description": "Istorinė vieta su nuostabiu vaizdu į Vilniaus miestą.",
+    "rating": 4.8
+  },
+  {
+    "name": "Trakų pilis",
+    "address": "Trakai, Lietuva",
+    "latitude": 54.6525,
+    "longitude": 24.9342,
+    "description": "Vienintelė Rytų Europoje pilis, pastatyta ežere.",
+    "rating": 4.9
+  },
+  {
+    "name": "Kauno pilis",
+    "address": "Kaunas, Lietuva",
+    "latitude": 54.8978,
+    "longitude": 23.8862,
+    "description": "Gotikinė pilis Kauno senamiestyje.",
+    "rating": 4.5
+  },
+  {
+    "name": "Kryžių kalnas",
+    "address": "Šiauliai, Lietuva",
+    "latitude": 56.0157,
+    "longitude": 23.4160,
+    "description": "Šventa vieta su tūkstančiais kryžių.",
+    "rating": 4.7
+  },
+  {
+    "name": "Palangos tiltas",
+    "address": "Palanga, Lietuva",
+    "latitude": 55.9194,
+    "longitude": 21.0647,
+    "description": "Populiari turistų vieta prie Baltijos jūros.",
+    "rating": 4.6
+  },
+  {
+    "name": "Aukštaitijos nacionalinis parkas",
+    "address": "Utenos apskritis, Lietuva",
+    "latitude": 55.3500,
+    "longitude": 25.9500,
+    "description": "Gražus parkas su daugybe ežerų ir miškų.",
+    "rating": 4.9
+  },
+  {
+    "name": "Druskininkų vandens parkas",
+    "address": "Druskininkai, Lietuva",
+    "latitude": 54.0151,
+    "longitude": 23.9692,
+    "description": "Didžiausias vandens parkas Lietuvoje.",
+    "rating": 4.8
+  },
+  {
+    "name": "Neringos kopos",
+    "address": "Neringa, Lietuva",
+    "latitude": 55.3033,
+    "longitude": 20.9766,
+    "description": "Unikalus gamtos stebuklas Kuršių Nerijoje.",
+    "rating": 4.9
+  },
+  {
+    "name": "Europos parkas",
+    "address": "Vilniaus rajonas, Lietuva",
+    "latitude": 54.8292,
+    "longitude": 25.2839,
+    "description": "Lauko muziejus su skulptūromis ir meno instaliacijomis.",
+    "rating": 4.6
+  },
+  {
+    "name": "Vilniaus katedra",
+    "address": "Vilnius, Lietuva",
+    "latitude": 54.6872,
+    "longitude": 25.2856,
+    "description": "Pagrindinė Lietuvos katalikų bažnyčia su istorine reikšme.",
+    "rating": 4.8
+  }
+]

@@ -1,32 +1,32 @@
-services:
-  db:
-    image: mariadb:11.0.2-jammy
-    environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: competition
-      MYSQL_USER: dev20025
-      MYSQL_PASSWORD: password
-    volumes:
-      - data:/var/lib/mysql
-    ports:
-      - 3306:3306
-  phpmyadmin:
-    image: phpmyadmin:5.2.1-apache
-    restart: always
-    ports:
-      - 8080:80
-  app:
-    image: node:18.17.0-alpine3.17
-    environment:
-      - DB_HOST=db
-      - DB_USER=dev2005
-      - DB_PASSWORD=password
-      - DB_NAME=competition
-    volumes:
-      - ./:/app
-    ports:
-      - 3000:3000
-    command: npm --prefix /app run dev
-    user: '${UID:-1}:${GID:-1}'
-volumes:
-  data:
+# services:
+#   db:
+#     image: mariadb:11.0.2-jammy
+#     environment:
+#       MYSQL_ROOT_PASSWORD: password
+#       MYSQL_DATABASE: competition
+#       MYSQL_USER: dev20025
+#       MYSQL_PASSWORD: password
+#     volumes:
+#       - data:/var/lib/mysql
+#     ports:
+#       - 3306:3306
+#   phpmyadmin:
+#     image: phpmyadmin:5.2.1-apache
+#     restart: always
+#     ports:
+#       - 8080:80
+#   app:
+#     image: node:18.17.0-alpine3.17
+#     environment:
+#       - DB_HOST=db
+#       - DB_USER=dev2005
+#       - DB_PASSWORD=password
+#       - DB_NAME=competition
+#     volumes:
+#       - ./:/app
+#     ports:
+#       - 3000:3000
+#     command: npm --prefix /app run dev
+#     user: '${UID:-1}:${GID:-1}'
+# volumes:
+#   data:
